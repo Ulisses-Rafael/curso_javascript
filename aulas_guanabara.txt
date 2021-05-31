@@ -1,0 +1,16 @@
+aula1
+
+1 aula de JavaScript
+
+aula 4
+criando os primeiros script
+
+em um site temos 3 partes
+conteúdo = HTML
+Desingn = CSS
+Interação = JavaScript
+
+head configuração
+alert("mandar msg pelo navegador!") ou alert.window("a mensagem aparece antes de abrir o conteúdo!")
+window.confirm("Aqui aparece uma mensagem que pode ser confirmada ou cancelada")
+window.prompt("Aqui abre um campo de preenchimento")
