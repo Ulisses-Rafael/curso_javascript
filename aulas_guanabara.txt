@@ -14,3 +14,28 @@ head configuração
 alert("mandar msg pelo navegador!") ou alert.window("a mensagem aparece antes de abrir o conteúdo!")
 window.confirm("Aqui aparece uma mensagem que pode ser confirmada ou cancelada")
 window.prompt("Aqui abre um campo de preenchimento")
+
+O Node. js pode ser definido como um ambiente de execução Javascript server-side. Isso significa que com o Node. js é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina, não dependendo de um browser para a execução, como estamos acostumados
+
+comentários deixam os códigos muito bem documentados
+
+no javascript comentar= // comentário em uma única linha
+/* comentar em blocos*/
+
+Para abrir o node js no visual code é só ir na aba terminal, novo terminal, escrever node
+
+Para limpar a tela do node = ctrl+l
+Variáveis no JS = Tipos primitivos primordiais
+Number = todos os números(int,float...)
+	infinity
+	naN
+String = conjuntos de caracteres(números + letras + símbolos)
+Boolean = verdadeiro ou falso
+null
+undefined
+object
+	array
+function
+
+Para mostrar o tipo da variável = tipeof + variável
+
