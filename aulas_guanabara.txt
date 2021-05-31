@@ -39,3 +39,5 @@ function
 
 Para mostrar o tipo da variável = tipeof + variável
 
+Parei em Tratamento de dados- Curso JavaScript #06
+
