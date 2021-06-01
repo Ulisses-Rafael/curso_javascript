@@ -41,3 +41,33 @@ Para mostrar o tipo da variável = tipeof + variável
 
 Parei em Tratamento de dados- Curso JavaScript #06
 
+Manipulação de dados:
+ converter  Number.parseInt(n) inteiros
+ converter Number.parseFloat(n) real
+           Number(n) = o javascript(Ecmascript) faz a conversão para inteiro ou real
+converter números para string:
+String(n)
+n.toString()
+
+Template String = nova forma de concatenar 
+`O aluno ${nome} com ${idade} anos tirou ${nota} de nota`
+'O aluno Ulisses com 37 anos tirou 5.5 de nota'
+
+s.lengt // quantos caracteres a string tem
+s.toUpperCase() // tudo maiúscula
+s.toLowerCase() // tudo minúscula
+
+para formatar saída de números vc pode usar ex:
+num = 1545.5
+num.fixed(2) aqui ele fixa duas casas decimais deixando a saída
+1545.50
+
+trocar o ponto por vírgula:
+num.toFixed(2).replace (".",",")
+
+formatar salário por país
+num.localeString('pt-BR', {style: 'currency' , currency: 'BRL'})
+num.localeString('pt-BR', {style: 'currency' , currency: 'USD'})
+num.localeString('pt-BR', {style: 'currency' , currency: 'EUR'})
+
+
