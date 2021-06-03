@@ -70,4 +70,84 @@ num.localeString('pt-BR', {style: 'currency' , currency: 'BRL'})
 num.localeString('pt-BR', {style: 'currency' , currency: 'USD'})
 num.localeString('pt-BR', {style: 'currency' , currency: 'EUR'})
 
+13/06/2021 
+Operadores =
+
+aritméticos: Cálculos
++ = 5+2 = 7
+- = 5-2 = 3
+* = 5*2 = 10
+/ = 5/2 = 2.5
+% = 5%2 = 1
+divisão inteira(não usa virgula) resto da divisão inteira 
+
+** = 5**2 = 25 
+surgiu no ecmascript
+
+*cuidado com a ordem de precedência = 
+()
+**
+*, / ,%
++ , -
+ 
+atribuição:
+var a = 5 +3 lê a recebe 5+3
+var b = a % 5 lê b recebe o resto da divisão
+var c = 5*b**2 lê c recebe b ao quadrado vezes 5
+var d = 10-a/2 lê d recebe 10 - a dividido por 2
+var e = 6*2/d   lê e recebe 6*2/d
+var f = b% e + 4 /e lê f recebe o resto de b%e  +  4 dividido por e
+
+auto atribuição:
+var n = 3
+n = n + 4 = 7
+n = n - 5 = 2
+n = n * 4 = 8
+n = n / 2 = 4
+n = n ** 2 = 16
+n = n % 5 = 1
+
+simplificando
+
+n + = 4
+n - = 5
+n * = 4
+n / = 2
+n ** = 2
+n % = 5
+
+operadores de incremento
+var x = 5
+x = x+1  x+=1 x++(pós incremento)  ++x(pré incremento)
+x = x-1  x-=1 x--(pós decremento)  --x(pré decremento)
+
+relacionais: resultado sempre vai ser um boolean(true, false)
+>   maior
+<   menor
+>=  maior ou igual
+<=  menor ou igual
+==  igual
+!=  diferente
+
+5 == 5 true
+5 == '5' true por que no javascript ele não testa o tipo(ele analisa se tem a mesma grandeza) por isso existe a identidade
+identidade ===  (identico ele verifica se são identicos)
+           !== desigual restrito
+5!='5' false
+5!== '5' true
+
+lógicos:
+! = sempre que aparecer é negação
+&& = conjunção (uma caneta azul e uma preta) só satisfaz se atender as duas condições
+|| = dijunção  (uma caneta azul ou uma preta) basta satisfazer uma condição só
+
+ordem de execusão: negação, conjunção, dijunção
+em uma expressão:
+1 operador aritmético, 2 operador relacional, 3 operador lógico.
+
+ternário: ? : dentro da mesma expressão
+     teste ? true : false
+ex: media>=7 ? "Aprovado" : "Reprovado"
+
+
 
