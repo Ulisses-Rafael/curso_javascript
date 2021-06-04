@@ -149,5 +149,42 @@ ternário: ? : dentro da mesma expressão
      teste ? true : false
 ex: media>=7 ? "Aprovado" : "Reprovado"
 
+04/06/2021
+Conhecendo o Dom = Document Object Model
+Àrvore DOM e Manipulando o DOM
+
+O que é DOM?
+conjunto de objetos
+
+
+árvore DOM
+                         Window
+		location  document  history
+			   html
+		     head       body
+               meta  title     
+			   h1  p  p  div
+				strong
+
+selecionando: elementos da minha árvore DOM por:
+
+-marca(por tag name)
+comando = getElementsByTagName()
+
+-ID
+getElementById()
+- Nome
+getElementsByName()
+- Classe
+getElementsByClassName()
+- Seletor
+querySelector()
+querySelectorAll()  id= #  class= .
+
+
+
+
+
+
 
 
