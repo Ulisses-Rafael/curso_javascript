@@ -181,6 +181,16 @@ getElementsByClassName()
 querySelector()
 querySelectorAll()  id= #  class= .
 
+site para consultar sobre eventos de javascript:
+event reference
+ em aula eventos como:
+mouseenter
+mousemove
+musedown
+moseup
+clik
+mouseout
+ 
 
 
 
