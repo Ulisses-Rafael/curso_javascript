@@ -190,6 +190,19 @@ musedown
 moseup
 clik
 mouseout
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+09/06/2021
+condições em javascript:
+desvio condicional: if e else;  if(condição){ true } else{ false }
+
+tipos de condição: 
+if(condição){true} = condição simples 
+if(condição){true}else{false}=
+
+
+
  
 
 

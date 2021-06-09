@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset = "UTF-8">
+    <title>Voçê é Brasileiro</title>
+</head>
+<body>
+    <h1>É ou não é: </h1>
+    Qual o país que você nasceu? <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="verificar" onclick="origem()">
+    <div id="res">
+
+    </div>
+    <script>
+        function origem() {
+            var pais = window.document.getElementById('txtpais')
+            var res = window.document.querySelector('div#res')
+            var p=(pais.value)
+            res.innerHTML = `<p>Você escolheu <strong>${p}</strong> então:</p>`
+            if (p != "Brasil") {
+                res.innerHTML += `Você é estrangeiro e nasceu no país: ${p}`
+            }else {
+                res.innerHTML += "Você é brasileiro!"
+            }
+        }
+    </script>
+</body>
+</html>
