@@ -202,8 +202,27 @@ if(condição){true} = condição simples
 if(condição){true}else{false}=
 
 
+/==/=/=/=/=/=/=/=/==/=/=/=/=/==/=/=/=/=/=/=/=/=/=/=/=/=/
+15/06/2021
 
- 
+Condição Múltipla: usada em algumas soluções
+
+switch (espressão) {
+	case valor1:
+
+	break
+	case valor2:
+
+        break
+	case valor3:
+
+	break
+	default:
+
+	break
+}
+
+
 
 
 
