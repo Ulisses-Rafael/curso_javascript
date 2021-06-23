@@ -223,6 +223,45 @@ switch (espressão) {
 }
 
 
+***********************************************************************************
+Estruturas de repetição
+
+Repetições com teste no início: while
+Repetições com teste no final: do while
+Repetições com controle: for
+
+ex: 
+function comerPizza(){
+	comerFatia()
+	comerFatia()
+	comerFatia()
+	comerFatia()
+	comerFatia()
+	comerFatia()
+	comerFatia()
+	comerFatia()
+}
+
+function comerPizza(){
+	while (temFatia()) {
+		comerFatia() }
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
