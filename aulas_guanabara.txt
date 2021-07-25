@@ -248,6 +248,33 @@ function comerPizza(){
 }
 	
 
+********************************************
+aula 15 vetor (array)
+vaga a = [1,2,3]   ou seja vc cria uma variável do tipo vetor que vc guarda  variáveis do mesmo tipo
+o vetor que tem vários elementos com índices para identificá-los
+
+let num = [1,2,3]
+
+
+buscar o indíce dentro do vetor com método (indexOf)
+
+let num = [4,5,6,7,8]
+num.indexOf(7) ele retorna 3 que é onde o 7 está dentro do vetor
+
+num.indexOf(3) o valor 3 não têm dentro do vetor então retorna -1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
