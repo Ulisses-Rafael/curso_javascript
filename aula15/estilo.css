@@ -1,0 +1,18 @@
+section {
+    background: white; /*cor da seção*/
+    border-radius: 10px;/*borda arredondada*/
+    padding: 15px; /**/
+    width: 80%;/*largura fixa*/
+    margin: auto; /*centralizar*/
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.767);
+}
+div input{
+    width:90%;
+    padding: 5px;
+    margin: 1px auto 1px 2px;
+}
+div h2 {
+    text-align: left;
+    padding: 2px;
+    margin: 5px 
+}
